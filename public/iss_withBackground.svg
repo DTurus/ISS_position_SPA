@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="141.60713mm"
-   height="134.80356mm"
-   viewBox="0 0 141.60713 134.80356"
+   width="141.06389mm"
+   height="155.68149mm"
+   viewBox="0 0 141.06389 155.68149"
    version="1.1"
    id="svg4610"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,17 +25,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="126.16909"
-     inkscape:cy="151.30649"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="538.15011"
+     inkscape:cy="254.41985"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true" />
   <metadata
      id="metadata4607">
     <rdf:RDF>
@@ -52,18 +53,23 @@
      inkscape:label="Livello 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-31.379689,-72.702985)">
+     transform="translate(-31.651429,-72.974725)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Livello 2"
+     style="display:inline"
+     transform="translate(-0.2717398,-0.2717398)">
     <g
-       id="g860">
-      <ellipse
-         ry="66.855621"
-         rx="70.257408"
-         cy="140.10477"
-         cx="102.18326"
-         id="path5296"
-         style="fill:#ff0000;fill-opacity:0.46558706;stroke:#ffcdd2;stroke-width:1.09232128;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       id="g943">
+      <path
+         transform="scale(0.26458333)"
+         id="path847"
+         d="M 267.60352,2.0644531 A 265.53981,252.68266 0 0 0 2.0644531,254.74609 265.53981,252.68266 0 0 0 110.37695,458.01953 L 264.4043,588.08008 414.55469,465.00391 A 265.53981,252.68266 0 0 0 533.14453,254.74609 265.53981,252.68266 0 0 0 267.60352,2.0644531 Z"
+         style="opacity:0.6;fill:#ff0000;fill-opacity:0.46558706;stroke:#ffcdd2;stroke-width:2.07481003;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
       <g
-         transform="matrix(0.24009422,0,0,0.2501969,55.650458,89.210283)"
+         transform="matrix(0.24009422,0,0,0.2501969,24.270769,16.507297)"
          id="g5259">
         <g
            id="g5202">

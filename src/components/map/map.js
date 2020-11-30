@@ -11,7 +11,7 @@ export class MapContainer extends React.Component {
         issPosition: {}
     };
 
-    onMarkerClick = (props, marker, e) => {
+/*     onMarkerClick = (props, marker, e) => {
         this.setState({
             selectedPlace: props,
             activeMarker: marker,
@@ -26,7 +26,7 @@ export class MapContainer extends React.Component {
                 activeMarker: null
             });
         }
-    };
+    }; */
 
     render() {
         return (
@@ -35,23 +35,25 @@ export class MapContainer extends React.Component {
                 google={this.props.google}
             >
                 <Marker
-                    onClick={this.onMarkerClick}
-                    name={'ISS position'}
+                    //onClick={this.onMarkerClick}
+                    clickable={false}
+                    name={'ISS'}
                     icon={{
                         url: '/iss_withBackground.svg',//'/international-space-station-svgrepo-com.svg',
                         scaledSize: new window.google.maps.Size(75, 75),
                     }}
                 />
 
-                <InfoWindow
+                {/* <InfoWindow
                     marker={this.state.activeMarker}
                     visible={this.state.showingInfoWindow}
                     onClose={this.onClose}
+
                 >
                     <div>
-                        <h4>{this.state.selectedPlace.name}</h4>
+                        <h3>{this.state.selectedPlace.name}</h3>
                     </div>
-                </InfoWindow>
+                </InfoWindow> */}
             </CurrentPosition>
         );
     }
