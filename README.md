@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # How to use
 
-To start this project you have to clone the repository and then go with your terminal in the folder;
-Finally you have to start the application
+To start this project you have to clone the repository and then go with your terminal in the folder.\
+Finally you have to start the application:
 
 ### 'npm start'
 
