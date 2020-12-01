@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../../index.css";
-import GoogleApiWrapper from "../map/map";
+import GoogleApiWrapper from "../map/mapContainer";
 import { API_KEY, NUMBER_OF_TIMES } from "../../constants";
 
 import $ from "jquery";
@@ -61,8 +61,12 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<h1 style={{ textAlign: "center" }}>International Space Station</h1>
-                <h2 style={{ textAlign: "center" }}>{passes}</h2>
-				<GoogleApiWrapper apiKey={API_KEY} />
+                <div className='div-row'>
+                    <h2 style={{ textAlign: "center" }}>{passes}</h2>
+                    <h2 style={{ textAlign: "center" }}>AAAAAAAAAAAAAAAA</h2>
+                </div>
+                <GoogleApiWrapper apiKey={API_KEY} />
+                <h2 style={{ textAlign: "center", top: "70%", position: 'absolute' }}>{passes}</h2>
 			</div>
 		);
 	}

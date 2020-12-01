@@ -15,3 +15,11 @@ h4 {
 h3 {
     color: #922;
 }
+
+.div-row {
+    flex: auto;
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    background-color: #922;
+}
