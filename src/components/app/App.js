@@ -5,6 +5,7 @@ import GoogleApiWrapper from "../map/mapContainer";
 import { API_KEY, NUMBER_OF_TIMES } from "../../constants";
 
 import $ from "jquery";
+import Form from "../form/form";
 
 class App extends React.Component {
 	constructor(props) {
@@ -61,12 +62,12 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<h1 style={{ textAlign: "center" }}>International Space Station</h1>
-                <div className='div-row'>
-                    <h2 style={{ textAlign: "center" }}>{passes}</h2>
-                    <h2 style={{ textAlign: "center" }}>AAAAAAAAAAAAAAAA</h2>
-                </div>
+                <h2 style={{ textAlign: "center" }}>{passes}</h2>
                 <GoogleApiWrapper apiKey={API_KEY} />
-                <h2 style={{ textAlign: "center", top: "70%", position: 'absolute' }}>{passes}</h2>
+                <br />
+                <div style={{marginLeft: "20px"}}>
+                    <Form />
+                </div>
 			</div>
 		);
 	}
