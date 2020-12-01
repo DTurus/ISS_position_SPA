@@ -37,8 +37,8 @@ export class CurrentPosition extends React.Component {
                     }
                 });
             },
-            (errorFetchingPosition) => {
-                console.log(errorFetchingPosition);
+            (error) => {
+                console.log("ERROR -> getISSPosition ->", error);
             }
         );
     }
