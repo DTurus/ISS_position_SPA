@@ -20,17 +20,6 @@ class App extends React.Component {
 
         const url = 'http://api.open-notify.org/iss-pass.json?lat=' + latitude + '&lon=' + longitude + '&n=' + passes + '&callback=?'
 
-/*         let array = [];
-        $.getJSON(url, function(data) {
-            data['response'].forEach(function (d) {
-                var date = new Date(d['risetime']*1000);
-                console.log("DATE ->", d);
-                array.push(date.toString());
-                //$('#isspass').append('<li>' + date.toString() + '</li>');
-            });
-        }) */
-
-
         $.getJSON(url).then(
             (res) => {
                 this.setState({

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
+import { GoogleApiWrapper, Marker } from 'google-maps-react';
 import Map from './map';
 
 export class MapContainer extends React.Component {
@@ -11,23 +11,6 @@ export class MapContainer extends React.Component {
         issPosition: {}
     };
 
-/*     onMarkerClick = (props, marker, e) => {
-        this.setState({
-            selectedPlace: props,
-            activeMarker: marker,
-            showingInfoWindow: true
-        });
-    };
-
-    onClose = (props) => {
-        if (this.state.showingInfoWindow) {
-            this.setState({
-                showingInfoWindow: false,
-                activeMarker: null
-            });
-        }
-    }; */
-
     render() {
         return (
             <Map
@@ -35,7 +18,6 @@ export class MapContainer extends React.Component {
                 google={this.props.google}
             >
                 <Marker
-                    //onClick={this.onMarkerClick}
                     clickable={false}
                     name={'ISS'}
                     icon={{
@@ -43,17 +25,6 @@ export class MapContainer extends React.Component {
                         scaledSize: new window.google.maps.Size(75, 75),
                     }}
                 />
-
-                {/* <InfoWindow
-                    marker={this.state.activeMarker}
-                    visible={this.state.showingInfoWindow}
-                    onClose={this.onClose}
-
-                >
-                    <div>
-                        <h3>{this.state.selectedPlace.name}</h3>
-                    </div>
-                </InfoWindow> */}
             </Map>
         );
     }
